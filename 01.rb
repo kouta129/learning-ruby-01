@@ -7,5 +7,5 @@ s1 = "パタトクカシーー"
 
 # 【次の行を変更して、期待通り動くようにする】
 
-
-puts s2 # => パトカー
+s2 = "パタトクカシーー"# => パトカー
+puts s2.chars.select.with_index { |char, i| i.even?}
